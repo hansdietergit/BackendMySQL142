@@ -1,10 +1,10 @@
 
 export const POOL = {
-    port: process.env.DB_PORT || '',
-    host: process.env.DB_HOST || 'db4free.net',
-    dbname: process.env.DB_NAME || 'db4fapi142nodejs',
-    user: process.env.DB_USER || 'yoroot',
-    pass: process.env.DB_PASSWORD || 'yoroot12'
+    port: process.env.DB_PORT || 5000,
+    host: process.env.DB_HOST || '',
+    dbname: process.env.DB_NAME || '',
+    user: process.env.DB_USER || '',
+    pass: process.env.DB_PASSWORD || ''
 }
 
 export const PORT = process.env.PORT || 3000
